@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="stylesheet" href="./resources/ol.css">
+        <link rel="stylesheet" href="resources/fontawesome-all.min.css">
+        <link href="resources/photon-geocoder-autocomplete.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="./resources/ol-layerswitcher.css">
+        <link rel="stylesheet" href="./resources/qgis2web.css">
+        <style>
+        html, body {
+            background-color: #ffffff;
+        }
+        .ol-control > * {
+            background-color: #f8f8f8!important;
+            color: #444444!important;
+            border-radius: 0px;
+        }
+        .ol-attribution a, .gcd-gl-input::placeholder, .search-layer-input-search::placeholder {
+            color: #444444!important;
+        }
+        .search-layer-input-search {
+            background-color: #f8f8f8!important;
+        }
+        .ol-control > *:focus, .ol-control >*:hover {
+            background-color: rgba(248, 248, 248, 0.7)!important;
+        } 
+        .ol-control {
+            background-color: rgba(255,255,255,.4) !important;
+            padding: 2px !important;
+        } 
+        </style>
+
+        <style>
+        html, body, #map {
+            width: 100%;
+            height: 100%;
+            padding: 0;
+            margin: 0;
+        }
+        </style>
+        <title></title>
+    </head>
+    <body>
+        <div id="map">
+            <div id="popup" class="ol-popup">
+                <a href="#" id="popup-closer" class="ol-popup-closer"></a>
+                <div id="popup-content"></div>
+            </div>
+        </div>
+        <script src="resources/qgis2web_expressions.js"></script>
+        <script src="./resources/functions.js"></script>
+        <script src="./resources/ol.js"></script>
+        <script src="./resources/ol-layerswitcher.js"></script>
+        <script src="resources/photon-geocoder-autocomplete.min.js"></script>
+        <script src="layers/SanJuana_1.js"></script><script src="layers/Zitanga_2.js"></script><script src="layers/SantaCruz_3.js"></script><script src="layers/PayaganWest_4.js"></script><script src="layers/PayaganEast_5.js"></script><script src="layers/Palloc_6.js"></script><script src="layers/Nararagan_7.js"></script><script src="layers/MabuttalWest_8.js"></script><script src="layers/MabuttalEast_9.js"></script><script src="layers/Fugu_10.js"></script><script src="layers/CabuluanWest_11.js"></script><script src="layers/CentroWest_12.js"></script><script src="layers/CabuluanEast_13.js"></script><script src="layers/CentroEast_14.js"></script><script src="layers/CabaritanWest_15.js"></script><script src="layers/CabaritanEast_16.js"></script><script src="layers/Cabayu_17.js"></script><script src="layers/Baran_18.js"></script><script src="layers/Ammubuan_19.js"></script><script src="layers/Ammu_20.js"></script><script src="layers/Hospitals_21.js"></script><script src="layers/Schools_22.js"></script><script src="layers/PrivateHospital_23.js"></script><script src="layers/EvacuationCenter_24.js"></script><script src="layers/Telecom_25.js"></script>
+        <script src="styles/SanJuana_1_style.js"></script><script src="styles/Zitanga_2_style.js"></script><script src="styles/SantaCruz_3_style.js"></script><script src="styles/PayaganWest_4_style.js"></script><script src="styles/PayaganEast_5_style.js"></script><script src="styles/Palloc_6_style.js"></script><script src="styles/Nararagan_7_style.js"></script><script src="styles/MabuttalWest_8_style.js"></script><script src="styles/MabuttalEast_9_style.js"></script><script src="styles/Fugu_10_style.js"></script><script src="styles/CabuluanWest_11_style.js"></script><script src="styles/CentroWest_12_style.js"></script><script src="styles/CabuluanEast_13_style.js"></script><script src="styles/CentroEast_14_style.js"></script><script src="styles/CabaritanWest_15_style.js"></script><script src="styles/CabaritanEast_16_style.js"></script><script src="styles/Cabayu_17_style.js"></script><script src="styles/Baran_18_style.js"></script><script src="styles/Ammubuan_19_style.js"></script><script src="styles/Ammu_20_style.js"></script><script src="styles/Hospitals_21_style.js"></script><script src="styles/Schools_22_style.js"></script><script src="styles/PrivateHospital_23_style.js"></script><script src="styles/EvacuationCenter_24_style.js"></script><script src="styles/Telecom_25_style.js"></script>
+        <script src="./layers/layers.js" type="text/javascript"></script> 
+        <script src="./resources/Autolinker.min.js"></script>
+        <script src="./resources/qgis2web.js"></script>
+    </body>
+</html>
